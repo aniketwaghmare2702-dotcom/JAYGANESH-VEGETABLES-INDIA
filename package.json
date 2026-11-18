@@ -1,0 +1,13 @@
+{
+  "name": "jay-ganesh-vegetables-india",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "start": "node backend/server.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.9",
+    "@netlify/server": "^0.1.6"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+.netlify/*
+!.netlify/results.md
+netlify/server/pages.generated.mjs
+data/
