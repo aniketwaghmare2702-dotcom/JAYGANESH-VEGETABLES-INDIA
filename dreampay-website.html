@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#09251a">
+  <meta name="description" content="DreamPay checkout for JAY GANESH FRUITS & VEGETABLES.">
+  <title>DREAM PAY · JAY GANESH</title>
+  <style>
+    :root{color-scheme:dark;--bg:#07170f;--panel:#10251a;--panel2:#0a1c13;--line:#2b4937;--gold:#f5b341;--mint:#b7e8c5;--muted:#afc0b3;--white:#f8f7ed}
+    *{box-sizing:border-box}body{margin:0;min-height:100svh;background:radial-gradient(ellipse at 50% -12%,#1e5035 0,transparent 54%),var(--bg);font:16px Inter,system-ui,"Segoe UI",sans-serif;color:var(--white);display:flex;flex-direction:column;align-items:center;padding:0 16px}
+    .brand{text-align:center;padding:34px 12px 22px;color:var(--mint);font-size:12px;font-weight:800;letter-spacing:.2em}.brand strong{display:block;font-size:30px;line-height:1.2;letter-spacing:.09em;color:var(--white)}.brand em{font-style:normal;color:var(--gold)}
+    main{width:min(100%,500px);margin:0 auto 22px;background:linear-gradient(150deg,#132c20,#0c1e15 72%);border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:0 24px 80px #0007}
+    h1{font-size:27px;line-height:1.16;text-align:center;margin:0 0 8px;letter-spacing:-.035em}.tag{text-align:center;color:var(--mint);font-size:14px;margin:0 0 24px}.merchant{background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:17px;text-align:center}.merchant small,.label{display:block;text-transform:uppercase;letter-spacing:.14em;font-size:10px;font-weight:800;color:var(--mint)}.merchant strong{display:block;font-size:18px;margin:7px 0 3px}.merchant span{font-size:12px;letter-spacing:.12em;color:var(--muted)}
+    .details{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin:14px 0}.detail{min-width:0;background:#0b1d14;border:1px solid var(--line);border-radius:12px;padding:13px}.detail small{display:block;color:var(--muted);font-size:11px;margin-bottom:7px}.detail strong{display:block;overflow-wrap:anywhere;font-size:14px}
+    .amount{text-align:center;padding:16px 8px 11px}.amount small{display:block;color:var(--muted);font-size:12px}.amount strong{display:block;color:var(--white);font-size:43px;line-height:1.2;letter-spacing:-.045em;margin-top:5px}
+    .scan{text-align:center;color:var(--mint);font-size:13px;font-weight:750;margin:5px 0 0}.qr{width:196px;aspect-ratio:1;margin:13px auto 10px;border:1px dashed #6f8b76;border-radius:14px;background:#0a1a12;display:grid;place-items:center;text-align:center;padding:22px;color:#c2d0c4;font-size:13px;line-height:1.5}.qr-mark{font-size:30px;display:block;margin-bottom:8px;color:var(--gold)}
+    .notice{border:1px solid #7c5c23;background:#302615;border-radius:11px;padding:12px 14px;color:#f2d79c;font-size:12px;line-height:1.5;margin:15px 0 0}.button{display:block;width:100%;border:0;border-radius:11px;background:#715726;color:#d7ccb2;font:800 14px system-ui,Segoe UI,sans-serif;padding:15px;margin-top:16px;cursor:not-allowed}.button:disabled{opacity:1}.secure{text-align:center;color:var(--muted);font-size:11px;margin:12px 0 0}.footer{text-align:center;color:#91a395;font-size:11px;line-height:1.65;padding:2px 12px 24px}
+    @media(max-width:420px){body{padding:0 12px}.brand{padding-top:26px}main{padding:22px 18px;border-radius:18px}h1{font-size:24px}.amount strong{font-size:38px}.qr{width:182px}}
+  </style>
+</head>
+<body>
+  <header class="brand"><strong>DREAM <em>PAY</em></strong>JAY GANESH</header>
+  <main aria-labelledby="title">
+    <h1 id="title">Simple. Secure. UPI Payments.</h1>
+    <p class="tag">Pay your JAY GANESH fruits and vegetables bill.</p>
+    <section class="merchant" aria-label="Merchant">
+      <small>MERCHANT PAYMENT</small>
+      <strong>JAY GANESH</strong>
+      <span>FRUITS &amp; VEGETABLES</span>
+    </section>
+    <section class="details" aria-label="Payment details">
+      <div class="detail"><small>Customer</small><strong>Shown for a saved POS order</strong></div>
+      <div class="detail"><small>Invoice</small><strong>Shown for a saved POS order</strong></div>
+    </section>
+    <section class="amount"><small>AMOUNT DUE</small><strong>—</strong></section>
+    <p class="scan">Scan &amp; Pay</p>
+    <div class="qr" role="img" aria-label="Merchant QR code is not configured"><div><span class="qr-mark" aria-hidden="true">▦</span>Actual merchant QR will appear after UPI configuration.</div></div>
+    <div class="notice">This page does not create a bill. Start checkout from a saved POS order so the server supplies the exact amount and UPI reference. The shop owner must check the bank account before payment is marked paid.</div>
+    <button class="button" type="button" disabled aria-disabled="true">PAY SECURELY</button>
+    <p class="secure">🔒 No payment request or transaction is created on this landing page.</p>
+    <p class="secure"><a href="/" style="color:var(--mint)">Return to JAY GANESH website</a></p>
+  </main>
+  <footer class="footer">DREAM PAY · JAY GANESH FRUITS &amp; VEGETABLES<br>Made by GD Aniket Waghmare</footer>
+</body>
+</html>
